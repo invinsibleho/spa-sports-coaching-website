@@ -10,7 +10,7 @@ const addUser = expressAsyncHandler(async (req, res) => {
     phone,
     classType,
     level,
-    preferedChoice,
+    preferredChoice,
   } = req.body;
   console.log(req.body);
   //Create the user
@@ -22,7 +22,7 @@ const addUser = expressAsyncHandler(async (req, res) => {
     phone,
     classType,
     level,
-    preferedChoice,
+    preferredChoice,
   });
   res.json(user);
 });

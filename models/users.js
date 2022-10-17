@@ -7,7 +7,7 @@ const userSchema = mongoose.Schema(
     phone: String,
     classType: String,
     level: String,
-    preferedChoice: {
+    preferredChoice: {
       preferredChoice1st: {
         userLocation: String,
         date: String,
